@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Portfolio Professionnel</title>
+</head>
+<body class="bg-gray-100 text-gray-800" >
+
+    <!-- Section d'en-tête -->
+    <header class="bg-white shadow " style="background-color: darksalmon;" >
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold"><marquee behavior="scroll" direction="left">Niang</marquee></h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:text-blue-500">Accueil</a></li>
+                    <li><a href="#projects" class="hover:text-blue-500">Projets</a></li>
+                    <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section héros -->
+    <section id="home" class="bg-cover bg-center h-96" style="background-image: url('img/projet-informatique.png')">
+        <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+            <h2 class="text-white text-4xl font-bold">Bonjour, je suis
+            <br><span style="color: red;">Ndeye Fatou Niang </span></h2>
+        </div>
+    </section>
+
+    <!-- Section compétences -->
+    <section class="py-12" >
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-semibold text-center mb-6">Compétences</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="font-bold">La capacité à travailler en équipe.</h4>
+                    <p>Dans l'environnement professionnel, le travail en équipe se caractérise par 
+                    la capacité d'un employé à travailler efficacement avec les autres, à bien communiquer,
+                    à respecter les positions et le leadership, à partager les ressources et à être à l'écoute</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="font-bold">La patience</h4>
+                    <p>La patience porte à la réflexion, elle aide à gérer ses pulsions. 
+                    Elle amène à temporiser, si nécessaire, pour ne pas dévier de son objectif principal. 
+                    Apprendre à attendre, sans être angoissé ou agacé, est un véritable atout personnel et professionnel.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="font-bold">La curiosité</h4>
+                    <p>Etre curieux permet de rester informé des dernières tendances, 
+                    de s'adapter aux changements et de développer de nouvelles compétences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-semibold text-center mb-6">Projets</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="img/images (1).jpg" alt="Projet 1" class="rounded-t-lg">
+                    <h4 class="font-bold mt-4">Projet 1</h4>
+                    <p>Gestionnaire de parc informatique</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="img/téléchargement (3).jpg" alt="Projet 2" class="rounded-t-lg">
+                    <h4 class="font-bold mt-4">Projet 2</h4>
+                    <p>Agenda numérique partagé</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="img/images (2).jpg" alt="Projet 3" class="rounded-t-lg">
+                    <h4 class="font-bold mt-4">Projet 3</h4>
+                    <p>Supervision</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulaire de contact -->
+    <section id="contact" class="py-12" style="background-color: darksalmon;">
+        <div class="container mx-auto px-4 " >
+            <h3 class="text-3xl font-semibold text-center mb-6">Contactez-moi</h3>
+            <form class="bg-white p-6 rounded-lg shadow-lg max-w-md mx-auto">
+                <div class="mb-4">
+                    <label class="block text-sm font-bold mb-2" for="name">Nom</label>
+                    <input type="text" id="name" class="border rounded-lg w-full py-2 px-3" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-sm font-bold mb-2" for="email">Adresse électronique</label>
+                    <input type="email" id="email" class="border rounded-lg w-full py-2 px-3" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-sm font-bold mb-2" for="message">Message</label>
+                    <textarea id="message" class="border rounded-lg w-full py-2 px-3" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-6">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <p class="text-gray-600">© 2024 Ndey@. Tous droits réservés.</p>
+            <div class="icon" >
+                <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                <a href="#"><i class="ri-youtube-fill"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
